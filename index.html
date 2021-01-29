@@ -9,9 +9,12 @@
 </head>
 
 <body>
+
     <div class="header">
+        <!--Questioning the color choice for seo. Is there enough of a contrast between the white and the grey? Did not want to change the color in case it is part of the company's branding-->
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!--Changed div tag to nav tag-->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -23,14 +26,18 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </div>
+
     <div class="hero">
         <!--Removed image from the css and added it here. Added alt text-->
         <img id="heroImage" src="assets/images/digital-marketing-meeting.jpg" alt="people in a meeting">
     </div>
-    <div class="content">
-        <div class="search-engine-optimization">
+
+    <!--Changed name of div class to reflect what the content actually is-->
+    <div class="main">
+        <!--added id so that the anchor link would work-->
+        <div id="search-engine-optimization"  class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="a desk with a notepad with SEO written on it" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -52,7 +59,9 @@
             </p>
         </div>
     </div>
-    <div class="benefits">
+
+    <!--Changed name of div class to reflect what the content actually is-->
+    <div class="aside">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <!--Added in alt text for the image-->
@@ -78,6 +87,7 @@
             </p>
         </div>
     </div>
+
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
