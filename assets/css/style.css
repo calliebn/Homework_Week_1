@@ -1,13 +1,16 @@
+/* this is a CSS reset */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* controls the background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* controls the appearance of the comapny's name and the background color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* controls the placement and size of the company's name */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* controls the color of the letters seo in in the company's name */
 .header h1 .seo {
     color: #d9dcd6;
 }
 /* changed div to nav */
+/* controls the placement and appearance of the ul */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,27 +39,32 @@ body {
 }
 
 /* changed div to nav */
+/* controls the style of the unordered list in the navigation */
 .header nav ul {
     list-style-type: none;
 }
 
 /* changed div to nav */
+/* controls the position of the unordered list in the nav bar */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* controls the appearance of hyperlinks */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
 /* made font size 2px larger */
+/* controls the font size of all p tags */
 p {
     font-size: 18px;
 }
 
-.hero {
+/* controls the placement of the main image at the top */
+.meet {
     display: flex;
     justify-content: center;
     height: 800px;
@@ -61,60 +72,35 @@ p {
     margin-bottom: 25px;
 }
 
-#heroImage {
+/* controls the size of the main image at the top */
+#meetImage {
     object-fit: cover;
     height: auto;
     width: 100%;
     flex: 1 1 auto;
 }
 
+/* settings for any image that is floated to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* settings for any image that is floated to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* controls the placement and size of the main section */
 .main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* removed clear: both; */
-.aside {
-    margin-right: 20px;
-    padding: 20px;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-/* combined div classes*/
-.benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 /* combined div classes */
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 22px;
-}
-
-/* combined div classes */
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* combined div classes */
+/* controls the appearance of the p tags found in the main section */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -125,16 +111,54 @@ p {
 }
 
 /* combined div classes */
+/* controls the appearance of the images found in the main section */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
 /* combined div classes */
+/* controls the appearance of the h2 tags found in the main section */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* removed clear: both; */
+/* controls the appearance and placement of the sidebar */
+.aside {
+    margin-right: 20px;
+    padding: 20px;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* combined div classes*/
+/* controls the font color and the margin at the bottom of the p tag in the sidebar */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* combined div classes */
+/* controls the appearance of the h3 tag in the sidebar */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* combined div classes */
+/* controls the appearance of the icons found in the sidebar */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* controls the appearance of the footer*/
 .footer {
     padding: 30px;
     clear: both;
@@ -142,6 +166,7 @@ p {
     text-align: center;
 }
 
+/* controls the font size of the first line of the footer */
 .footer h2 {
     font-size: 20px;
 }
