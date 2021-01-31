@@ -5,6 +5,7 @@ The object of this homework assignment was to refactor Horiseon's website to mak
 Once the HTMl file had been updated, I went into the CSS and consolidated the classes and IDs. I also added comments to indicate what each piece of CSS cotrolled and commented out the changes that I made.
 
 To view the file on GitHub, please visit <a href="https://github.com/calliebn/Homework_Week_1">my repository</a> on GitHub.
+You can also see the deployed version <a href="https://calliebn.github.io/Homework_Week_1/">here</a>.
 
 ## References:
 Carnegie Museums of Pittsburgh Web Acccessibility Guidelines v1.0
